@@ -2,6 +2,7 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "React e-shop",
+  "homepage": "https://juandied.github.io/vitrina/",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
