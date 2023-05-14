@@ -1,9 +1,9 @@
 @use 'vars';
 
-.menu{
+.menu-icon{
     display: none;
 }
-.logo{
+.nav-logo{
     width: 100px;
 }
 .navbar-left{
@@ -48,6 +48,10 @@ nav{
     margin-right: 12px;
 
 }
+.navbar-email:hover {
+    cursor: pointer;
+    color: var(--hospital-green);
+}
 .navbar-shopping-cart{
     position: relative;
 }
@@ -67,7 +71,7 @@ nav{
 
 }
 @media (max-width: 640px) {
-    .menu {
+    .menu-icon {
         display: block;
     }
     .navbar-left ul {
