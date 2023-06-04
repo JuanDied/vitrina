@@ -1,7 +1,8 @@
 {
-  "homepage": "https://juandied.github.io/vitrina/",
+  "homepage": "https://juandied.github.io/vitrina",
   "name": "react-shop",
   "version": "1.0.0",
+  "private": false,
   "description": "React e-shop",
   "main": "src/index.js",
   "scripts": {
