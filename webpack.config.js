@@ -6,8 +6,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: './bundle.js',
-        publicPath: './',
+        filename: 'vitrina/bundle.js',
+        publicPath: '/vitrina/',
     },
     mode:"development",
     resolve: {
