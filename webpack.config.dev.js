@@ -6,10 +6,10 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'vitrina/bundle.js',
-        publicPath: '/vitrina/',
+        filename: 'bundle.js',
+        publicPath: '/',
     },
-    mode:"production",
+    mode:"development",
     resolve: {
         extensions: ['.js', '.jsx'],
         alias: {
@@ -66,10 +66,10 @@ module.exports = {
             filename: '[name].css'
         }),
     ],
-    /*devServer:{
+    devServer:{
         static: path.join(__dirname, 'dist'),
         compress:true,
         port:3005,
         historyApiFallback: true,
-    }*/
+    }
 }
