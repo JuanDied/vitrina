@@ -30,7 +30,7 @@ const App = () => {
         </BrowserRouter>
         */
         <AppContext.Provider value={initialState}>
-            <BrowserRouter basename= "/vitrina">
+            <BrowserRouter >
                 <Layout>
                     <Routes>
                         <Route exact path="/" element={<Home/>} />
